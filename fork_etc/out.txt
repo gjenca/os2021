@@ -1,0 +1,9 @@
+celkom 36
+-rwxr-xr-x 1 jenca jenca 7552 sep 28 12:45 fork1
+-rw-r--r-- 1 jenca jenca  392 sep 28 12:45 fork1.c
+-rw-r--r-- 1 jenca jenca  404 sep 28 12:43 fork1.c~
+-rwxr-xr-x 1 jenca jenca 7840 sep 28 13:07 fork2
+-rw-r--r-- 1 jenca jenca  478 sep 28 13:07 fork2.c
+-rw-r--r-- 1 jenca jenca  478 sep 28 13:07 fork2.c~
+-rw-r--r-- 1 jenca jenca  418 sep 28 13:08 out.txt
+-rw-r--r-- 1 jenca jenca  266 sep 28 12:51 subor.txt
