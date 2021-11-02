@@ -1,0 +1,25 @@
+celkom 84
+drwxrwxr-x   2 root root  4096 nov 12  2019 bin
+drwxr-xr-x   5 root root  4096 nov 26  2019 boot
+drwxr-xr-x  18 root root  3200 okt  5 12:02 dev
+drwxr-xr-x 137 root root 12288 okt  5 12:29 etc
+drwxr-xr-x   5 root root  4096 mar  8  2019 home
+lrwxrwxrwx   1 root root    32 sep 24  2019 initrd.img -> /boot/initrd.img-3.16.0-10-amd64
+lrwxrwxrwx   1 root root    31 feb  1  2019 initrd.img.old -> /boot/initrd.img-3.16.0-7-amd64
+drwxr-xr-x  17 root root  4096 sep 12  2016 lib
+drwxr-xr-x   2 root root  4096 nov 10  2017 lib64
+drwx------   2 root root 16384 sep 12  2016 lost+found
+drwxr-xr-x   5 root root  4096 sep 13  2016 media
+drwxr-xr-x   2 root root  4096 sep 12  2016 mnt
+drwxr-xr-x   2 root root  4096 sep 12  2016 opt
+dr-xr-xr-x 162 root root     0 okt  5  2021 proc
+drwx------   5 root root  4096 feb  8  2019 root
+drwxr-xr-x  28 root root   980 okt  5 12:07 run
+drwxr-xr-x   2 root root  4096 nov 26  2019 sbin
+drwxr-xr-x   2 root root  4096 sep 12  2016 srv
+dr-xr-xr-x  13 root root     0 okt  5 12:30 sys
+drwxrwxrwt  16 root root  4096 okt  5 12:31 tmp
+drwxr-xr-x  10 root root  4096 sep 12  2016 usr
+drwxr-xr-x  11 root root  4096 sep 12  2016 var
+lrwxrwxrwx   1 root root    28 sep 24  2019 vmlinuz -> boot/vmlinuz-3.16.0-10-amd64
+lrwxrwxrwx   1 root root    27 feb  1  2019 vmlinuz.old -> boot/vmlinuz-3.16.0-7-amd64
