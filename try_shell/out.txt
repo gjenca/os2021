@@ -1,1 +1,2 @@
-blabla
+X="bezi"
+echo "toto $X!"
