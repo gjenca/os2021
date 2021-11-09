@@ -1,0 +1,9 @@
+#!/bin/bash
+PROD=1
+while test "$#" != 0
+do
+	PROD="$PROD*$1"
+	shift
+done
+echo "$PROD" | bc
+

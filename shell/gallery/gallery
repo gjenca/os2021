@@ -1,0 +1,51 @@
+#!/bin/bash
+# spracovanie options/prepinacov
+TITLE="Gallery"
+PERC="15%"
+if [ ! -d mini ]
+then
+	mkdir mini
+fi
+while true
+do
+if [ "$1" = "-t" ]
+then
+	TITLE="$2"
+	shift 2
+elif [ "$1" = "-p" ]
+then
+	PERC="$2"
+	shift 2
+else
+	break
+fi
+done 
+cat <<THE_END
+<html>
+<head>
+<title>
+$TITLE
+</title>
+<body>
+<h1>
+$TITLE
+</h1>
+<ul>
+THE_END
+while [ "$#" != 0 ]
+do
+	BASENAME=$(echo "$1" | sed 's/\.[^.]*$//')
+	MINI="mini/$BASENAME.png"
+	convert -resize "$PERC" "$1" "$MINI"
+	echo '<li>'
+	echo '<a href="'"$1"'">'
+	echo '<img src="'"$MINI"'" />'
+	echo '</a>'
+	echo '</li>'
+	shift
+done
+cat <<THE_END
+</ul>
+</body>
+</html>
+THE_END

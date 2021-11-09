@@ -1,0 +1,4 @@
+#!/bin/bash
+TO_SEARCH=$(echo "$1" | tr ' ' +)
+SEARCHURL='https://arxiv.org/search/?query=%22'"$TO_SEARCH"'%22&searchtype=all&abstracts=show&order=-announced_date_first&size=50'
+curl -s "$SEARCHURL"

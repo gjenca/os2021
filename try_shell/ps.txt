@@ -1,0 +1,149 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  28980  5452 ?        Ss   12:07   0:00 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    12:07   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    12:07   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   12:07   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    12:07   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    12:07   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    12:07   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    12:07   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    12:07   0:00 [watchdog/1]
+root        12  0.0  0.0      0     0 ?        S    12:07   0:00 [migration/1]
+root        13  0.0  0.0      0     0 ?        S    12:07   0:00 [ksoftirqd/1]
+root        15  0.0  0.0      0     0 ?        S<   12:07   0:00 [kworker/1:0H]
+root        16  0.0  0.0      0     0 ?        S    12:07   0:00 [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S    12:07   0:00 [migration/2]
+root        18  0.0  0.0      0     0 ?        S    12:07   0:00 [ksoftirqd/2]
+root        20  0.0  0.0      0     0 ?        S<   12:07   0:00 [kworker/2:0H]
+root        21  0.0  0.0      0     0 ?        S    12:07   0:00 [watchdog/3]
+root        22  0.0  0.0      0     0 ?        S    12:07   0:00 [migration/3]
+root        23  0.0  0.0      0     0 ?        S    12:07   0:00 [ksoftirqd/3]
+root        25  0.0  0.0      0     0 ?        S<   12:07   0:00 [kworker/3:0H]
+root        26  0.0  0.0      0     0 ?        S<   12:07   0:00 [khelper]
+root        27  0.0  0.0      0     0 ?        S    12:07   0:00 [kdevtmpfs]
+root        28  0.0  0.0      0     0 ?        S<   12:07   0:00 [netns]
+root        29  0.0  0.0      0     0 ?        S    12:07   0:00 [khungtaskd]
+root        30  0.0  0.0      0     0 ?        S<   12:07   0:00 [writeback]
+root        31  0.0  0.0      0     0 ?        SN   12:07   0:00 [ksmd]
+root        32  0.0  0.0      0     0 ?        SN   12:07   0:00 [khugepaged]
+root        33  0.0  0.0      0     0 ?        S<   12:07   0:00 [crypto]
+root        34  0.0  0.0      0     0 ?        S<   12:07   0:00 [kintegrityd]
+root        35  0.0  0.0      0     0 ?        S<   12:07   0:00 [bioset]
+root        36  0.0  0.0      0     0 ?        S<   12:07   0:00 [kblockd]
+root        38  0.0  0.0      0     0 ?        S    12:07   0:00 [kswapd0]
+root        39  0.0  0.0      0     0 ?        S<   12:07   0:00 [vmstat]
+root        40  0.0  0.0      0     0 ?        S    12:07   0:00 [fsnotify_mark]
+root        46  0.0  0.0      0     0 ?        S<   12:07   0:00 [kthrotld]
+root        48  0.0  0.0      0     0 ?        S<   12:07   0:00 [ipv6_addrconf]
+root        49  0.0  0.0      0     0 ?        S<   12:07   0:00 [deferwq]
+root        65  0.0  0.0      0     0 ?        S    12:07   0:00 [kworker/2:2]
+root        90  0.0  0.0      0     0 ?        S<   12:07   0:00 [acpi_thermal_pm]
+root        91  0.0  0.0      0     0 ?        S    12:07   0:00 [khubd]
+root        92  0.0  0.0      0     0 ?        S<   12:07   0:00 [ata_sff]
+root        94  0.0  0.0      0     0 ?        S<   12:07   0:00 [kpsmoused]
+root        98  0.0  0.0      0     0 ?        S    12:07   0:00 [scsi_eh_0]
+root        99  0.0  0.0      0     0 ?        S<   12:07   0:00 [scsi_tmf_0]
+root       100  0.0  0.0      0     0 ?        S    12:07   0:00 [scsi_eh_1]
+root       101  0.0  0.0      0     0 ?        S<   12:07   0:00 [scsi_tmf_1]
+root       102  0.0  0.0      0     0 ?        S    12:07   0:00 [scsi_eh_2]
+root       103  0.0  0.0      0     0 ?        S<   12:07   0:00 [scsi_tmf_2]
+root       104  0.0  0.0      0     0 ?        S    12:07   0:00 [scsi_eh_3]
+root       105  0.0  0.0      0     0 ?        S<   12:07   0:00 [scsi_tmf_3]
+root       106  0.0  0.0      0     0 ?        S    12:07   0:00 [kworker/u8:2]
+root       107  0.0  0.0      0     0 ?        S    12:07   0:00 [kworker/u8:3]
+root       110  0.0  0.0      0     0 ?        S    12:07   0:00 [kworker/0:2]
+root       111  0.0  0.0      0     0 ?        S    12:07   0:00 [kworker/1:2]
+root       114  0.0  0.0      0     0 ?        S<   12:07   0:00 [kworker/0:1H]
+root       115  0.0  0.0      0     0 ?        S<   12:07   0:00 [kworker/1:1H]
+root       116  0.0  0.0      0     0 ?        S<   12:07   0:00 [kworker/2:1H]
+root       117  0.0  0.0      0     0 ?        S<   12:07   0:00 [kworker/3:1H]
+root       138  0.0  0.0      0     0 ?        S    12:07   0:00 [jbd2/sda7-8]
+root       139  0.0  0.0      0     0 ?        S<   12:07   0:00 [ext4-rsv-conver]
+root       174  0.0  0.0      0     0 ?        S    12:07   0:00 [kauditd]
+root       177  0.0  0.0  32972  3956 ?        Ss   12:07   0:00 /lib/systemd/systemd-journald
+root       186  0.0  0.0  41956  4324 ?        Ss   12:07   0:00 /lib/systemd/systemd-udevd
+root       224  0.0  0.0      0     0 ?        S    12:07   0:00 [kworker/3:2]
+root       246  0.0  0.0      0     0 ?        S    12:07   0:00 [irq/49-mei_me]
+root       259  0.0  0.0      0     0 ?        S    12:07   0:00 [kworker/3:3]
+root       262  0.0  0.0      0     0 ?        S<   12:07   0:00 [hd-audio0]
+root       263  0.0  0.0      0     0 ?        S<   12:07   0:00 [hd-audio1]
+root       301  0.0  0.0      0     0 ?        S<   12:07   0:00 [led_workqueue]
+root       351  0.0  0.0   8940   116 ?        Ss   12:07   0:00 /sbin/rdnssd -u rdnssd -H /etc/rdnssd/merge-hook
+rdnssd     352  0.0  0.0  17352  1632 ?        S    12:07   0:00 /sbin/rdnssd -u rdnssd -H /etc/rdnssd/merge-hook
+root       470  0.0  0.0  37084  2688 ?        Ss   12:07   0:00 /sbin/rpcbind -w
+statd      479  0.0  0.0  37284  2968 ?        Ss   12:07   0:00 /sbin/rpc.statd
+root       484  0.0  0.0      0     0 ?        S<   12:07   0:00 [rpciod]
+root       486  0.0  0.0      0     0 ?        S<   12:07   0:00 [nfsiod]
+root       493  0.0  0.0  29632   240 ?        Ss   12:07   0:00 /usr/sbin/rpc.idmapd
+root       497  0.0  0.0 336296  7932 ?        Ssl  12:07   0:00 /usr/sbin/ModemManager
+root       498  0.0  0.0 264952  3696 ?        Ssl  12:07   0:00 /usr/sbin/rsyslogd -n
+root       500  0.0  0.1 355828 12864 ?        Ssl  12:07   0:00 /usr/sbin/NetworkManager --no-daemon
+root       503  0.0  0.0  26404  2680 ?        Ss   12:07   0:00 /usr/sbin/cron -f
+avahi      504  0.0  0.0  32104  2824 ?        Ss   12:07   0:00 avahi-daemon: running [comp16.local]
+daemon     505  0.0  0.0  19028  1796 ?        Ss   12:07   0:00 /usr/sbin/atd -f
+root       509  0.0  0.0  28272  2880 ?        Ss   12:07   0:00 /lib/systemd/systemd-logind
+message+   511  0.0  0.0  42936  4008 ?        Ss   12:07   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+avahi      518  0.0  0.0  32104   252 ?        S    12:07   0:00 avahi-daemon: chroot helper
+root       522  0.0  0.0      0     0 ?        S<   12:07   0:00 [cfg80211]
+root       537  0.0  0.0   4260  1628 ?        Ss   12:07   0:00 /usr/sbin/acpid
+root       541  0.0  0.0  85040  6608 ?        Ss   12:07   0:00 /usr/sbin/cupsd -f
+root       542  0.0  0.0  71744  5208 ?        Ss   12:07   0:00 /usr/sbin/cups-browsed
+root       545  0.0  0.0  55184  5444 ?        Ss   12:07   0:00 /usr/sbin/sshd -D
+root       546  0.0  0.0  19280  2152 ?        Ss   12:07   0:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root       552  0.0  0.0 280072  7628 ?        Ssl  12:07   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       553  0.0  0.0  13316  2012 tty1     Ss+  12:07   0:00 /sbin/agetty --noclear tty1 linux
+root       568  0.0  0.0  24672  1896 ?        Ss   12:07   0:00 /usr/bin/kdm -config /var/run/kdm/kdmrc
+root       571  0.4  0.4 185776 40204 tty7     Rs+  12:07   0:12 /usr/bin/X :0 vt7 -br -nolisten tcp -auth /var/run/xauth/A:0-J6DUja
+Debian-+   818  0.0  0.0  55352  3132 ?        Ss   12:07   0:00 /usr/sbin/exim4 -bd -q30m
+root       826  0.0  0.0  71432  4124 ?        S    12:07   0:00 -:0                                    
+jenca      842  0.0  0.0  35796  3988 ?        Ss   12:07   0:00 /lib/systemd/systemd --user
+jenca      843  0.0  0.0  50264  2412 ?        S    12:07   0:00 (sd-pam)  
+jenca      845  0.0  0.0   4340  1588 ?        Ss   12:07   0:00 /bin/sh /usr/bin/x-session-manager
+jenca      879  0.0  0.0  10708   340 ?        Ss   12:07   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session x-session-manager
+jenca      882  0.0  0.0  24376  1948 ?        S    12:07   0:00 /usr/bin/dbus-launch --exit-with-session x-session-manager
+jenca      883  0.0  0.0  42860  3176 ?        Ss   12:07   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+jenca      921  0.0  0.0   4088    84 ?        S    12:07   0:00 /usr/lib/kde4/libexec/start_kdeinit +kcminit_startup
+jenca      922  0.0  0.4 376624 34608 ?        Ss   12:07   0:00 kdeinit4: kdeinit4 Running...                  
+jenca      923  0.0  0.3 380272 24604 ?        S    12:07   0:00 kdeinit4: klauncher [kdeinit] --fd=9           
+jenca      925  0.0  0.6 1194168 50964 ?       Sl   12:07   0:00 kdeinit4: kded4 [kdeinit]                      
+jenca      928  0.0  0.3 291692 29424 ?        S    12:07   0:00 /usr/bin/kglobalaccel
+jenca      941  0.0  0.3 686904 31356 ?        Sl   12:07   0:00 /usr/bin/kactivitymanagerd
+root       943  0.0  0.1 237572  8324 ?        Ssl  12:07   0:00 /usr/lib/upower/upowerd
+jenca      944  0.0  0.0   4224   660 ?        S    12:07   0:00 kwrapper4 ksmserver
+jenca      969  0.0  0.4 556996 35124 ?        Sl   12:07   0:00 kdeinit4: ksmserver [kdeinit]                  
+root       974  0.0  0.0 369588  7036 ?        Ssl  12:07   0:00 /usr/lib/udisks2/udisksd --no-debug
+jenca      986  0.2  1.1 3029832 89532 ?       Sl   12:07   0:05 kwin
+jenca      993  0.1  1.5 3314624 126916 ?      Sl   12:07   0:03 /usr/bin/plasma-desktop
+jenca      998  0.0  0.3 286592 29304 ?        S    12:07   0:00 /usr/bin/kuiserver
+jenca     1001  0.0  0.1 154268 11788 ?        Sl   12:07   0:00 /usr/bin/akonadi_control
+jenca     1003  0.0  0.2 2020408 18092 ?       Sl   12:07   0:00 akonadiserver
+jenca     1005  0.0  0.4 1972816 38024 ?       Sl   12:07   0:01 /usr/sbin/mysqld --defaults-file=/home/jenca/.local/share/akonadi/mysql.conf --datadir=/home/jenca/.local/share/akonadi/db_data/ --socket=/tmp/akonadi-jenca.jHYsjH/mysql.socket
+jenca     1041  0.0  0.4 330784 34776 ?        Sl   12:08   0:00 /usr/bin/akonadi_agent_launcher akonadi_akonotes_resource akonadi_akonotes_resource_0
+jenca     1042  0.0  0.8 639252 64556 ?        S    12:08   0:00 /usr/bin/akonadi_archivemail_agent --identifier akonadi_archivemail_agent
+jenca     1045  0.0  0.4 316064 36776 ?        S    12:08   0:00 /usr/bin/akonadi_followupreminder_agent --identifier akonadi_followupreminder_agent
+jenca     1046  0.0  0.4 324788 35328 ?        Sl   12:08   0:00 /usr/bin/akonadi_agent_launcher akonadi_ical_resource akonadi_ical_resource_0
+jenca     1047  0.0  0.4 330780 35176 ?        Sl   12:08   0:00 /usr/bin/akonadi_agent_launcher akonadi_maildir_resource akonadi_maildir_resource_0
+jenca     1048  0.0  0.4 362060 39048 ?        S    12:08   0:00 /usr/bin/akonadi_maildispatcher_agent --identifier akonadi_maildispatcher_agent
+jenca     1053  0.0  0.7 639248 64028 ?        S    12:08   0:00 /usr/bin/akonadi_mailfilter_agent --identifier akonadi_mailfilter_agent
+jenca     1060  0.0  0.4 314008 36900 ?        S    12:08   0:00 /usr/bin/akonadi_migration_agent --identifier akonadi_migration_agent
+jenca     1065  0.0  0.5 415772 42980 ?        S    12:08   0:00 /usr/bin/akonadi_newmailnotifier_agent --identifier akonadi_newmailnotifier_agent
+jenca     1066  0.0  0.6 535428 55044 ?        S    12:08   0:00 /usr/bin/akonadi_notes_agent --identifier akonadi_notes_agent
+jenca     1067  0.0  0.7 607156 60644 ?        S    12:08   0:00 /usr/bin/akonadi_sendlater_agent --identifier akonadi_sendlater_agent
+jenca     1102  0.0  0.8 803684 68356 ?        Sl   12:08   0:00 /usr/bin/krunner
+jenca     1107  0.0  0.4 396688 33268 ?        Sl   12:08   0:00 /usr/lib/kde4/libexec/polkit-kde-authentication-agent-1
+jenca     1108  0.0  0.5 453028 40560 ?        S    12:08   0:00 /usr/bin/korgac --icon korgac
+jenca     1113  0.0  0.1 438300  9880 ?        S<l  12:08   0:00 /usr/bin/pulseaudio --start
+jenca     1116  0.0  0.5 714588 46604 ?        Sl   12:08   0:00 /usr/bin/kmix
+rtkit     1118  0.0  0.0 168784  2344 ?        SNsl 12:08   0:00 /usr/lib/rtkit/rtkit-daemon
+jenca     1121  0.0  0.3 305744 32152 ?        S    12:08   0:00 /usr/bin/klipper
+jenca     1129  0.0  0.0   4340   108 ?        S    12:08   0:00 /bin/sh /usr/bin/start-pulseaudio-kde
+jenca     1130  0.0  0.0  20068  5364 ?        S    12:08   0:00 /usr/bin/xprop -root -spy
+root      1132  0.0  0.1 380672 11852 ?        Ssl  12:08   0:00 /usr/lib/packagekit/packagekitd
+jenca     1136  0.0  0.4 412712 33980 ?        Sl   12:08   0:00 /usr/bin/knotify4
+root      1414  0.0  0.0      0     0 ?        S    12:17   0:00 [kworker/0:1]
+root      1415  0.0  0.0      0     0 ?        S    12:17   0:00 [kworker/2:0]
+root      1444  0.0  0.0      0     0 ?        S    12:22   0:00 [kworker/1:0]
+jenca     1544  1.6  0.6 454100 49648 ?        Sl   12:46   0:02 /usr/bin/konsole
+jenca     1546  0.0  0.0  22908  5996 pts/1    Ss   12:46   0:00 /bin/bash
+jenca     1569  0.0  0.0  18004  2456 pts/1    R+   12:49   0:00 ps -aux
+jenca     1570  0.0  0.0   4812  1708 pts/1    S+   12:49   0:00 tee ps.txt
