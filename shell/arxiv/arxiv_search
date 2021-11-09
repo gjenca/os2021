@@ -1,0 +1,6 @@
+#!/bin/bash
+SEARCH_TERM=$(echo "$1" | tr ' ' '+')
+URL='https://arxiv.org/search/?query=%22'"$SEARCH_TERM"'%22&searchtype=all&source=header'
+curl -s "$URL" | tr -d '\n' | sed 's@</p@\n@g'| sed 's@^.*<p@@' | grep 'title is-5' | sed 's@^[^>]*> *@@' | sed 's@<span[^>]*>@@g' | sed 's@</span>@@g'
+ 
+
