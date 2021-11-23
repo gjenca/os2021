@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+def f(a,b,c=10,d="slon"):
+
+    print("a=",a)
+    print("b=",b)
+    print("c=",c)
+    print("d=",d)
+
+f(1,2)
+f(1,2,3)
+f(1,2,-3,"vtakopysk")
+f(1,2,3,d="kapybara")
+
+
