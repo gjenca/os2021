@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+
+z=[3,-1,2,2,"slon"]
+
+print('Zoznam')
+for item in z:
+    print(item)
+
+z1=[(1,-1),(3,-3),(-2,2)]
+print('Zoznam dvojic')
+
+for x,y in z1:
+    print(x)
+    print(y)
+print('enumerate')
+
+for i,item in enumerate(z):
+    print(i,item)
+
+print('slovnik')
+d={'slon':4,'had':0,'ryba':0}
+for key in d:
+    print(key,'->',d[key])
+
+print('retazec')
+s='Python'
+for c in s:
+    print(c)
+
+print('retazec (enumerate)')
+s='Python'
+for i,c in enumerate(s):
+    print(i,c)
+
+print('hodnoty v slovniku')
+for value in d.values():
+    print(value)
+
+
+

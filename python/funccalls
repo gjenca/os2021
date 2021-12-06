@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+z=10
+
+def f(x,y):
+
+    global z
+
+    print(x,y,z)
+    z=9
+
+
+f(1,2)
+print(z)
