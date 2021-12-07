@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
+'''Popis modulu prvočisla
+'''
 import math
 
-x=10
-
-# Zoznam prvocisel <= n
 def prvocisla(n,s=2):
+    '''Vráti zoznam prvočísiel od s po n.
+Predvolená hodnota s je 2.'''
 
     ret=[]
     for k in range(s,n):
@@ -15,7 +16,4 @@ def prvocisla(n,s=2):
             ret.append(k)
     return ret
 
-
-            
-#print(prvocisla(100,50))
 
